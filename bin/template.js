@@ -7,10 +7,10 @@ const getAttrs = (style) => {
     'v-on': '$listeners'
   }
   const fillAttrs = {
-    ':fill': 'color'
+    // ':fill': 'color'
   }
   const strokeAttrs = {
-    ':stroke': 'color',
+    // ':stroke': 'color',
     'fill': 'none',
     'stroke-width': 2,
     'stroke-linecap': 'round',
@@ -34,11 +34,11 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
         size: {
           type: Number,
           default: 16
-        },
-        color: {
-          type: String,
-          default: "currentColor"
         }
+        // color: {
+        //   type: String,
+        //   default: "currentColor"
+        // }
       }
     };
   </script>
