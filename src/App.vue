@@ -80,7 +80,7 @@
     justify-content: center;
     align-items: center;
     width: 160px;
-    height: 28px;
+    height: 128px;
     padding: 16px;
     border-radius: 8px;
     cursor: pointer;
