@@ -80,7 +80,7 @@
     justify-content: center;
     align-items: center;
     width: 160px;
-    height: 112px;
+    height: 28px;
     padding: 16px;
     border-radius: 8px;
     cursor: pointer;
@@ -91,6 +91,6 @@
     background-color: #e7ecf3;
   }
   .item svg{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 </style>
